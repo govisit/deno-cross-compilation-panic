@@ -1,5 +1,7 @@
 # Deno cross compilation panic
 
+This is a recreation repository for this issue: https://github.com/denoland/deno/issues/22690
+
 ## Quickstart
 
 ```bash
