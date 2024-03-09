@@ -1,0 +1,15 @@
+{
+	"lock": false,
+	"tasks": {
+		"start": "deno run --allow-read --allow-env --allow-sys ./main.ts",
+		"compile-windows": "deno compile --allow-read --allow-env --allow-sys --target=\"x86_64-pc-windows-msvc\" main.ts",
+		"compile-host": "deno compile --allow-read --allow-env --allow-sys main.ts"
+	},
+	"imports": {
+		"$std/": "https://deno.land/std@0.208.0/",
+		"$cliffy/": "https://deno.land/x/cliffy@v1.0.0-rc.3/",
+		"ink": "npm:ink@4.4.1",
+		"react": "npm:react@18.2.0",
+		"ink-big-text": "npm:ink-big-text@2.0.0"
+	}
+}
