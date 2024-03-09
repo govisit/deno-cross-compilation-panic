@@ -26,6 +26,16 @@ deno task compile-host
 .\deno-cross-compilation-panic.exe
 ```
 
+Compiling on Windows for Linux and running on Linux **works**.
+
+```powershell
+deno task compile-linux
+
+./deno-cross-compilation-panic
+```
+
+Compiling on Linux for Windows and running on Windows **does not work**.
+
 ## Instructions to recreate issue
 
 From Linux machine:

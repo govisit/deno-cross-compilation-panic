@@ -3,6 +3,7 @@
 	"tasks": {
 		"start": "deno run --allow-read --allow-env --allow-sys ./main.ts",
 		"compile-windows": "deno compile --allow-read --allow-env --allow-sys --target=\"x86_64-pc-windows-msvc\" main.ts",
+		"compile-linux": "deno compile --allow-read --allow-env --allow-sys --target=\"x86_64-unknown-linux-gnu\" main.ts",
 		"compile-host": "deno compile --allow-read --allow-env --allow-sys main.ts"
 	},
 	"imports": {
